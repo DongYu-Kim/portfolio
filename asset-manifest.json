@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f6be668a.css",
+    "main.js": "/portfolio/static/js/main.b755378f.js",
+    "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/싸피떵유.jpg": "/portfolio/static/media/싸피떵유.1838fb6cb7a91f4b8b1d.jpg",
+    "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/비둘기.gif": "/portfolio/static/media/비둘기.ff6e2f7ef5fd0f7f4b02.gif",
+    "static/media/당당이.png": "/portfolio/static/media/당당이.6ee89e97c4f4d69549d4.png",
+    "static/media/싸피레이스.jpg": "/portfolio/static/media/싸피레이스.94e8e099103461fb7710.jpg",
+    "static/media/quoraLogo.png": "/portfolio/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
+    "static/media/싸피스쿨.jpg": "/portfolio/static/media/싸피스쿨.b30b2060090682305492.jpg",
+    "static/media/googleAssistantLogo.webp": "/portfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/airbnbLogo.png": "/portfolio/static/media/airbnbLogo.e8497507db673acd3991.png",
+    "static/media/MCDJ.png": "/portfolio/static/media/MCDJ.7f7c17d665f6515c9a74.png",
+    "static/media/떵유.png": "/portfolio/static/media/떵유.3114d87b83093173d840.png",
+    "static/media/노티스.png": "/portfolio/static/media/노티스.b164a2e14dea181562dc.png",
+    "static/media/facebookLogo.png": "/portfolio/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
+    "static/media/codeInLogo.webp": "/portfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
+    "static/media/pwaLogo.webp": "/portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "static/media/saayaHealthLogo.webp": "/portfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "index.html": "/portfolio/index.html",
+    "main.f6be668a.css.map": "/portfolio/static/css/main.f6be668a.css.map",
+    "main.b755378f.js.map": "/portfolio/static/js/main.b755378f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6be668a.css",
+    "static/js/main.b755378f.js"
+  ]
+}
