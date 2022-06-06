@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.31486b73.chunk.css",
+    "main.js": "/portfolio/static/js/main.90a9da08.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.90a9da08.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.41b8d690.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.41b8d690.js.map",
+    "static/js/2.e4d5e02c.chunk.js": "/portfolio/static/js/2.e4d5e02c.chunk.js",
+    "static/js/2.e4d5e02c.chunk.js.map": "/portfolio/static/js/2.e4d5e02c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.9621e8690809c8fc835332acb637ec7d.js": "/portfolio/precache-manifest.9621e8690809c8fc835332acb637ec7d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.31486b73.chunk.css.map": "/portfolio/static/css/main.31486b73.chunk.css.map",
+    "static/js/2.e4d5e02c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e4d5e02c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/MCDJ.png": "/portfolio/static/media/MCDJ.076c9c8a.png",
+    "static/media/airbnbLogo.png": "/portfolio/static/media/airbnbLogo.c59720d6.png",
+    "static/media/codeInLogo.webp": "/portfolio/static/media/codeInLogo.47a7a717.webp",
+    "static/media/facebookLogo.png": "/portfolio/static/media/facebookLogo.8ddf76a1.png",
+    "static/media/googleAssistantLogo.webp": "/portfolio/static/media/googleAssistantLogo.e79c6392.webp",
+    "static/media/pwaLogo.webp": "/portfolio/static/media/pwaLogo.ee62cb58.webp",
+    "static/media/quoraLogo.png": "/portfolio/static/media/quoraLogo.4b2938b9.png",
+    "static/media/saayaHealthLogo.webp": "/portfolio/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/노티스.png": "/portfolio/static/media/노티스.f835c0b5.png",
+    "static/media/당당이.png": "/portfolio/static/media/당당이.a1a38361.png",
+    "static/media/떵유.png": "/portfolio/static/media/떵유.83079deb.png",
+    "static/media/비둘기.gif": "/portfolio/static/media/비둘기.efde880c.gif",
+    "static/media/싸피떵유.jpg": "/portfolio/static/media/싸피떵유.6eb44c47.jpg",
+    "static/media/싸피레이스.jpg": "/portfolio/static/media/싸피레이스.d75f599d.jpg",
+    "static/media/싸피스쿨.jpg": "/portfolio/static/media/싸피스쿨.009db06f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41b8d690.js",
+    "static/js/2.e4d5e02c.chunk.js",
+    "static/css/main.31486b73.chunk.css",
+    "static/js/main.90a9da08.chunk.js"
+  ]
+}
