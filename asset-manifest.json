@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f6be668a.css",
-    "main.js": "/portfolio/static/js/main.970ef4a7.js",
+    "main.js": "/portfolio/static/js/main.20112031.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/싸피떵유.jpg": "/portfolio/static/media/싸피떵유.1838fb6cb7a91f4b8b1d.jpg",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -21,10 +21,10 @@
     "static/media/saayaHealthLogo.webp": "/portfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "index.html": "/portfolio/index.html",
     "main.f6be668a.css.map": "/portfolio/static/css/main.f6be668a.css.map",
-    "main.970ef4a7.js.map": "/portfolio/static/js/main.970ef4a7.js.map"
+    "main.20112031.js.map": "/portfolio/static/js/main.20112031.js.map"
   },
   "entrypoints": [
     "static/css/main.f6be668a.css",
-    "static/js/main.970ef4a7.js"
+    "static/js/main.20112031.js"
   ]
 }
