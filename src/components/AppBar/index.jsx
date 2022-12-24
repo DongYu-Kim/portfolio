@@ -9,11 +9,16 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import DarkModeButton from './DarkModeButton';
 
+
 const name = "DongYu";
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Career', 'Skills', 'Project'];
+
+const show = { 
+    big: { xs: 'none', sm: 'flex' },
+    small: { xs: 'flex', sm: 'none' }
+};
 
 function ResponsiveAppBar({mode, toggleMode}) {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -28,9 +33,8 @@ function ResponsiveAppBar({mode, toggleMode}) {
 
     return (
         <AppBar position="static" color='' enableColorOnDark>
-            <Container maxWidth="xl">
+            <Container maxWidth="false">
                 <Toolbar disableGutters>
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
                     <Typography
                         variant="h6"
                         noWrap
@@ -38,7 +42,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         href="/"
                         sx={{
                             mr: 2,
-                            display: { xs: 'none', md: 'flex' },
+                            display: show.big,
                             fontFamily: 'monospace',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
@@ -46,10 +50,14 @@ function ResponsiveAppBar({mode, toggleMode}) {
                             textDecoration: 'none',
                         }}
                     >
+                        <img 
+                            src='images/IconImage.png' alt='ImageIcon'
+                            height='32px' style={{marginRight: '1rem'}}
+                        />
                         {name}
                     </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    <Box sx={{ flexGrow: 1, display: show.small }}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -75,7 +83,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                             open={Boolean(anchorElNav)}
                             onClose={handleCloseNavMenu}
                             sx={{
-                                display: { xs: 'block', md: 'none' },
+                                display: show.small,
                             }}
                         >
                         {pages.map((page) => (
@@ -87,7 +95,6 @@ function ResponsiveAppBar({mode, toggleMode}) {
                     </Box>
 
                     
-                    <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                     <Typography
                         variant="h5"
                         noWrap
@@ -95,7 +102,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         href=""
                         sx={{
                             mr: 2,
-                            display: { xs: 'flex', md: 'none' },
+                            display: show.small,
                             flexGrow: 1,
                             fontFamily: 'monospace',
                             fontWeight: 700,
@@ -104,9 +111,13 @@ function ResponsiveAppBar({mode, toggleMode}) {
                             textDecoration: 'none',
                         }}
                     >
+                        <img 
+                            src='images/IconImage.png' alt='ImageIcon'
+                            height='32px' style={{marginRight: '1rem'}}
+                        />
                         {name}
                     </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
+                    <Box sx={{ flexGrow: 1, display: show.big, justifyContent: 'center' }}>
                         {pages.map((page) => (
                         <Button
                             key={page}
