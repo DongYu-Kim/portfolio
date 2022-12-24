@@ -10,15 +10,8 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import DarkModeButton from './DarkModeButton';
+import { name, pages, show } from '../../data';
 
-
-const name = "DongYu";
-const pages = ['Career', 'Skills', 'Project'];
-
-const show = { 
-    big: { xs: 'none', sm: 'flex' },
-    small: { xs: 'flex', sm: 'none' }
-};
 
 function ResponsiveAppBar({mode, toggleMode}) {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -51,7 +44,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         }}
                     >
                         <img 
-                            src='images/IconImage.png' alt='ImageIcon'
+                            src='images/IconImage.png' alt='Icon'
                             height='32px' style={{marginRight: '1rem'}}
                         />
                         {name}
@@ -112,7 +105,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         }}
                     >
                         <img 
-                            src='images/IconImage.png' alt='ImageIcon'
+                            src='images/IconImage.png' alt='Icon'
                             height='32px' style={{marginRight: '1rem'}}
                         />
                         {name}

@@ -1,10 +1,11 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { ThemeProvider, createTheme } from "@mui/material";
+import { ThemeProvider, createTheme, Container } from "@mui/material";
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Slide from '@mui/material/Slide';
 import ResponsiveAppBar from './components/AppBar';
+import Introduce from './contents/introduce';
 
 let _mode = localStorage.getItem("mode");
 !_mode&& (_mode = "dark");
@@ -56,9 +57,10 @@ function App() {
                     minHeight: '100vh',
                 }}
             >
-
                 <ResponsiveAppBar mode={mode} toggleMode={toggleMode} />
-
+                <Container>
+                    <Introduce />
+                </Container>
             </Box>
         </ThemeProvider>
     );
