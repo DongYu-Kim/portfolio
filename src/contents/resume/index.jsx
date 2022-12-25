@@ -5,7 +5,7 @@ import { pages } from '../../data';
 
 function Resume() {
 
-    return <Container id={pages[0]}>
+    return <Container id={pages[0]} style={{scrollMarginTop: "100px"}}>
         <Typography variant='h4' mt={5} mb={3} fontWeight='bold'>
             Resume
         </Typography>
@@ -14,7 +14,7 @@ function Resume() {
                 <Career />
             </Box>
             <Box>
-                <Grid container spacing={4}>
+                <Grid container spacing={12}>
                     <Grid item>
                         <Awards />
                     </Grid>

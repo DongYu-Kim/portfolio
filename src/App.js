@@ -61,7 +61,7 @@ function App() {
                     <Introduce />
                     <Resume />
                 </Container>
-                <Box height="200px" />
+                <Box height="1200px" />
             </Box>
         </ThemeProvider>
     );

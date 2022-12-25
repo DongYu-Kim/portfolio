@@ -11,7 +11,7 @@ function Career() {
             <InsightsIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Career 
         </Typography>
         <Container>
-            <Grid container spacing={4}>
+            <Grid container spacing={1}>
                 <Grid item>
                     <Coach />
                 </Grid>
