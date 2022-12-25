@@ -24,7 +24,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         variant="h6"
                         noWrap
                         component="a"
-                        href="/"
+                        href="./"
                         sx={{
                             mr: 2,
                             display: show.big,
@@ -72,7 +72,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                             }}
                         >
                         {pages.map((page) => (
-                            <a key={page} href={`/#${page}`} style={{textDecoration: "none", color: "inherit"}}>
+                            <a key={page} href={`./#${page}`} style={{textDecoration: "none", color: "inherit"}}>
                                 <MenuItem onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center" >{page}</Typography>
                                 </MenuItem>
@@ -86,7 +86,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         variant="h5"
                         noWrap
                         component="a"
-                        href=""
+                        href="./"
                         sx={{
                             mr: 2,
                             display: show.small,
@@ -110,7 +110,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                             key={page}
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'inherit', display: 'block' }}
-                            href={`/#${page}`}
+                            href={`./#${page}`}
                         >
                             {page}
                         </Button>
