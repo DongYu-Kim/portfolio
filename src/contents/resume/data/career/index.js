@@ -8,7 +8,7 @@ import Universe from "./Universe";
 function Career() {
     return <Box>
         <Typography variant='h5' mt={3} fontWeight='bold'> 
-            <InsightsIcon color='info' style={{verticalAlign: "middle", marginRight: "1rem"}} />Career 
+            <InsightsIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Career 
         </Typography>
         <Container>
             <Grid container spacing={4}>

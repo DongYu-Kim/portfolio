@@ -2,11 +2,12 @@ import Box from '@mui/material/Box';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 
 function Contact() {
     return <Box sx={{ display: "inline-block" }}>
-        <h3>Contact</h3>
+        <h3><PhoneIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Contact</h3>
         <a
             href='mailto:ehddb2252@gmail.com' target='_blank' rel='noreferrer'
             style={{marginRight: "1rem", textDecoration: "none", color: "inherit"}}
