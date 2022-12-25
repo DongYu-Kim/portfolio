@@ -8,7 +8,7 @@ function Next() {
         <CardContent style={{padding: "0", display: "flex", alignItems: "center", justifyContent: "space-between"}}>
             <Box style={{display: "flex", alignItems: "center"}}>
                 <Box style={{width: "36px", height: "36px", backgroundColor: "gray", display: "flex", justifyContent: "center", alignItems: "center"}} >
-                    <img src='images/icons/Next.png' alt='Next.js' />
+                    <img src='images/icons/next.png' alt='Next.js' />
                 </Box>
                 <Typography variant='h6' marginLeft="0.5rem">Next.js</Typography>
             </Box>

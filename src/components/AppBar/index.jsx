@@ -36,7 +36,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         }}
                     >
                         <img 
-                            src='images/IconImage.png' alt='Icon'
+                            src='images/iconimage.png' alt='Icon'
                             height='32px' style={{marginRight: '1rem'}}
                         />
                         {name}
@@ -99,7 +99,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                         }}
                     >
                         <img 
-                            src='images/IconImage.png' alt='Icon'
+                            src='images/iconimage.png' alt='Icon'
                             height='32px' style={{marginRight: '1rem'}}
                         />
                         {name}

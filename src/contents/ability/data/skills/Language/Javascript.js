@@ -8,7 +8,7 @@ function Javascript() {
         <CardContent style={{padding: "0", display: "flex", alignItems: "center", justifyContent: "space-between"}}>
             <Box style={{display: "flex", alignItems: "center"}}>
                 <Box style={{width: "36px", height: "36px", backgroundColor: "gray", display: "flex", justifyContent: "center", alignItems: "center"}} >
-                    <img src='images/icons/Javascript.png' alt='Javascript' />
+                    <img src='images/icons/javascript.png' alt='Javascript' />
                 </Box>
                 <Typography variant='h6' marginLeft="0.5rem">Javascript</Typography>
             </Box>
