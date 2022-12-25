@@ -1,9 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { ThemeProvider, createTheme, Container } from "@mui/material";
-import useScrollTrigger from '@mui/material/useScrollTrigger';
-import Box from '@mui/material/Box';
-import Slide from '@mui/material/Slide';
+import { ThemeProvider, createTheme, Container, Box, useScrollTrigger, Slide } from "@mui/material";
 import ResponsiveAppBar from './components/AppBar';
 import Introduce from './contents/introduce';
 import Resume from './contents/resume';
@@ -59,10 +56,12 @@ function App() {
                 }}
             >
                 <ResponsiveAppBar mode={mode} toggleMode={toggleMode} />
+                <Box height="70px" />
                 <Container>
                     <Introduce />
                     <Resume />
                 </Container>
+                <Box height="200px" />
             </Box>
         </ThemeProvider>
     );

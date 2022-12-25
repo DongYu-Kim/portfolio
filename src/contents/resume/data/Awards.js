@@ -17,7 +17,7 @@ function Awards() {
         <li>우수상 <span style={{color: "gray"}}>(2022.05.31, 삼성전자주식회사)</span></li>
         <p style={{margin: "0"}}>자율 프로젝트 결선발표회 입상</p>
         <li>최우수상 <span style={{color: "gray"}}>(2022.06.15, 삼성전자 한종희 부회장)</span></li>
-        <p style={{margin: "0"}}>삼성 청년 SW 아카데미 교육과정 우수한 성적으로 수료</p>
+        <p style={{margin: "0"}}>삼성 청년 SW 아카데미 교육과정 최우수 수료</p>
     </Box>
 };
 

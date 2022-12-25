@@ -17,7 +17,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
     };
 
     return (
-        <AppBar position="static" color='' enableColorOnDark>
+        <AppBar position="fixed" color='' enableColorOnDark>
             <Container maxWidth="false">
                 <Toolbar disableGutters>
                     <Typography
