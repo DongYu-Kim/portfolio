@@ -1,9 +1,7 @@
 import * as React from 'react';
-import Container from '@mui/material/Container';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
+import { Container, Grid, Box, Typography } from '@mui/material';
 import { name, Dream, Contact, Image } from './data';
-import { Grid } from '@mui/material';
+
 
 function Introduce() {
 

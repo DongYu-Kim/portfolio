@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Slide from '@mui/material/Slide';
 import ResponsiveAppBar from './components/AppBar';
 import Introduce from './contents/introduce';
+import Resume from './contents/resume';
 
 let _mode = localStorage.getItem("mode");
 !_mode&& (_mode = "dark");
@@ -60,6 +61,7 @@ function App() {
                 <ResponsiveAppBar mode={mode} toggleMode={toggleMode} />
                 <Container>
                     <Introduce />
+                    <Resume />
                 </Container>
             </Box>
         </ThemeProvider>

@@ -1,14 +1,6 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
+import { AppBar, Box, Toolbar, IconButton, Typography, Menu, Container, Button, MenuItem } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
 import DarkModeButton from './DarkModeButton';
 import { name, pages, show } from '../../data';
 
@@ -80,9 +72,11 @@ function ResponsiveAppBar({mode, toggleMode}) {
                             }}
                         >
                         {pages.map((page) => (
-                            <MenuItem key={page} onClick={handleCloseNavMenu}>
-                            <Typography textAlign="center" >{page}</Typography>
-                            </MenuItem>
+                            <a key={page} href={`/#${page}`} style={{textDecoration: "none", color: "inherit"}}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center" >{page}</Typography>
+                                </MenuItem>
+                            </a>
                         ))}
                         </Menu>
                     </Box>
@@ -116,6 +110,7 @@ function ResponsiveAppBar({mode, toggleMode}) {
                             key={page}
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'inherit', display: 'block' }}
+                            href={`/#${page}`}
                         >
                             {page}
                         </Button>
