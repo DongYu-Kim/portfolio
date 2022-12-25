@@ -12,7 +12,7 @@ function Tensorflow() {
                 </Box>
                 <Typography variant='h6' marginLeft="0.5rem">Tensorflow</Typography>
             </Box>
-            <SkillLevel level={3} />
+            <SkillLevel level={2} />
         </CardContent>
     </Card>
 };
