@@ -7,7 +7,7 @@ function Resume() {
 
     return <Container id={pages[0]} style={{scrollMarginTop: "100px"}}>
         <Typography variant='h4' mt={5} mb={3} fontWeight='bold'>
-            Resume
+            {pages[0]}
         </Typography>
         <Container>
             <Box>

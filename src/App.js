@@ -4,6 +4,8 @@ import { ThemeProvider, createTheme, Container, Box, useScrollTrigger, Slide } f
 import ResponsiveAppBar from './components/AppBar';
 import Introduce from './contents/introduce';
 import Resume from './contents/resume';
+import Ability from './contents/ability';
+import Project from './contents/project';
 
 let _mode = localStorage.getItem("mode");
 !_mode&& (_mode = "dark");
@@ -36,7 +38,14 @@ HideOnScroll.propTypes = {
 function App() {
     const [mode, setMode] = React.useState(_mode);
 
-    const modeTheme = createTheme({ palette: { mode } });
+    const modeTheme = createTheme({ 
+        palette: { mode },
+        typography: {
+            fontFamily: [
+                'Arial',
+            ]
+        }
+     });
 
     const toggleMode = () => {
         const _mode = mode==="dark"?"light":"dark";
@@ -60,8 +69,10 @@ function App() {
                 <Container>
                     <Introduce />
                     <Resume />
+                    <Ability />
+                    <Project />
                 </Container>
-                <Box height="1200px" />
+                <Box height="200px" />
             </Box>
         </ThemeProvider>
     );

@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@mui/material';
 
 function Ssafy() {
-    return <Card sx={{ display: "inline-block", width: "330px", height: "300px" }}>
+    return <Card sx={{ display: "inline-block", width: "340px", height: "300px" }}>
         <CardContent>
             <h3 style={{ fontWeight: "normal" }}>삼성 청년 SW 아카데미 6기 수료</h3>
             <p style={{ color: "gray", textAlign: "right" }}>2021.07.07 ~ 2022.06.30</p>

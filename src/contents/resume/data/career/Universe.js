@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@mui/material';
 
 function Universe() {
-    return <Card sx={{ display: "inline-block", width: "330px", height: "300px" }}>
+    return <Card sx={{ display: "inline-block", width: "340px", height: "300px" }}>
         <CardContent>
             <h3 style={{ fontWeight: "normal" }}>고려대학교 기계공학 학사 졸업</h3>
             <p style={{ color: "gray", textAlign: "right" }}>2014.03.01 ~ 2020.08.25</p>
