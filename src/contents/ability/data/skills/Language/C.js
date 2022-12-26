@@ -16,11 +16,11 @@ function C({ detail }) {
                 >
                     <img src='images/icons/c.png' alt='C' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">C</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">C</Typography>
             </Box>
             <SkillLevel level={4} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >포인터와 메모리 동적할당을 사용해 자유롭게 코드 구현</Typography>
         </CardContent>}
     </Card>

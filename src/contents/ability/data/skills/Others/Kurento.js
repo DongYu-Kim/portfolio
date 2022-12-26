@@ -16,11 +16,11 @@ function Kurento({ detail }) {
                 >
                     <img src='images/icons/kurento.png' alt='Kurento' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">Kurento</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">Kurento</Typography>
             </Box>
             <SkillLevel level={3} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >WebRTC의 이해와 웹페이지 적용</Typography>
         </CardContent>}
     </Card>

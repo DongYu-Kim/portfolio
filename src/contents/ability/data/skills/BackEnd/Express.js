@@ -16,11 +16,11 @@ function Express({ detail }) {
                 >
                     <img src='images/icons/express.png' alt='Express' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">Express</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">Express</Typography>
             </Box>
             <SkillLevel level={4} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >웹 서버 개발<br/>SocketIO를 사용한 소켓 서버 개발</Typography>
         </CardContent>}
     </Card>

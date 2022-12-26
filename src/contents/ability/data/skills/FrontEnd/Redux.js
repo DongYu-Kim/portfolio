@@ -16,11 +16,11 @@ function Redux({ detail }) {
                 >
                     <img src='images/icons/redux.png' alt='Redux' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">Redux.js</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">Redux.js</Typography>
             </Box>
             <SkillLevel level={3} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >dispatch, subscribe 등의 개념을 사용해 React 상태관리에 사용</Typography>
         </CardContent>}
     </Card>

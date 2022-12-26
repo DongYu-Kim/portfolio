@@ -16,11 +16,11 @@ function SocketIO({ detail }) {
                 >
                     <img src='images/icons/socketio.png' alt='SocketIO' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">SocketIO</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">SocketIO</Typography>
             </Box>
             <SkillLevel level={4} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >클라이언트 상태, 채팅, 화상 채팅 등의 실시간 동기화 구현</Typography>
         </CardContent>}
     </Card>

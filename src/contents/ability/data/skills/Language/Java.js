@@ -16,11 +16,11 @@ function Java({ detail }) {
                 >
                     <img src='images/icons/java.png' alt='Java' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">Java</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">Java</Typography>
             </Box>
             <SkillLevel level={3} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >컬렉션, 스레드, 인터페이스 등을 사용</Typography>
         </CardContent>}
     </Card>

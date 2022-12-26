@@ -16,11 +16,11 @@ function Javascript({ detail }) {
                 >
                     <img src='images/icons/javascript.png' alt='Javascript' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">Javascript</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">Javascript</Typography>
             </Box>
             <SkillLevel level={4} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >closure, promise 등의 개념을 사용해 자유롭게 코드 구현<br/>Vue.js, React 등에서 어려움 없이 사용</Typography>
         </CardContent>}
     </Card>

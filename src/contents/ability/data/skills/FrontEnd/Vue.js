@@ -16,11 +16,11 @@ function Vue({ detail }) {
                 >
                     <img src='images/icons/vue.png' alt='Vue.js' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">Vue.js</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">Vue.js</Typography>
             </Box>
             <SkillLevel level={3} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >오류 없이 동작하는 웹페이지 제작</Typography>
         </CardContent>}
     </Card>

@@ -16,11 +16,11 @@ function Next({ detail }) {
                 >
                     <img src='images/icons/next.png' alt='Next.js' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">Next.js</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">Next.js</Typography>
             </Box>
             <SkillLevel level={3} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >SSR을 적용한 웹페이지 제작</Typography>
         </CardContent>}
     </Card>

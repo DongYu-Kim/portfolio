@@ -16,11 +16,11 @@ function Csharp({ detail }) {
                 >
                     <img src='images/icons/csharp.png' alt='C#' />
                 </Box>
-                <Typography variant='h6' marginLeft="0.5rem">C#</Typography>
+                <Typography variant='h6' marginLeft="0.5rem" fontSize="16px" fontWeight="bold">C#</Typography>
             </Box>
             <SkillLevel level={3} />
         </CardContent>
-        {detail&& <CardContent sx={{padding: "0 !important"}} >
+        {detail&& <CardContent sx={{padding: "4px !important"}} >
             <Typography fontSize="12px" >Unity에서 어려움 없이 사용</Typography>
         </CardContent>}
     </Card>

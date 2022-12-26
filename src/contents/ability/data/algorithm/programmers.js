@@ -11,7 +11,7 @@ function Programmers() {
             >
                 <img 
                     src={`images/programmers.jpg`} 
-                    alt={"programmers"} style={{width: "295px", border: "solid 2.5px gray", borderRadius: "0.7rem"}}
+                    alt={"programmers"} style={{width: "298px", border: "solid 1px gray", borderRadius: "0.7rem", backgroundColor: "white"}}
                 />
             </span>
         </Box>
