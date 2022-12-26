@@ -42,7 +42,7 @@ function App() {
         palette: { mode },
         typography: {
             fontFamily: [
-                'Arial',
+                'SUIT',
             ]
         }
      });
