@@ -11,7 +11,7 @@ import Javascript from './Javascript';
 function Language({ detail }) {
 
     return <Box sx={{display: "inline-block", width: "245px"}}>
-        <Typography variant='h6' textAlign="center">Language</Typography>
+        <Typography variant='h6' textAlign="center" fontWeight="bold" >Language</Typography>
         <C detail={detail} />
         <Cpp detail={detail} />
         <Csharp detail={detail} />

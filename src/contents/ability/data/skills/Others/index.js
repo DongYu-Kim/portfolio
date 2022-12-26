@@ -7,7 +7,7 @@ import Unity from './Unity';
 function Others({ detail }) {
 
     return <Box sx={{display: "inline-block", width: "245px"}}>
-        <Typography variant='h6' textAlign="center">Others</Typography>
+        <Typography variant='h6' textAlign="center" fontWeight="bold" >Others</Typography>
         <SocketIO detail={detail} />
         <Kurento detail={detail} />
         <Tensorflow detail={detail} />

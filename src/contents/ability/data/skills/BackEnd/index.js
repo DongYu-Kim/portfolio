@@ -5,7 +5,7 @@ import Express from './Express';
 function BackEnd({ detail }) {
 
     return <Box sx={{display: "inline-block", width: "245px"}}>
-        <Typography variant='h6' textAlign="center">BackEnd</Typography>
+        <Typography variant='h6' textAlign="center" fontWeight="bold" >BackEnd</Typography>
         <Django detail={detail} />
         <Express detail={detail} />
     </Box>

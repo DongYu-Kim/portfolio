@@ -5,7 +5,7 @@ import { backjoonId } from "../../../../data"
 function Backjoon() {
     
     return <Box sx={{display: "inline-block", width: "330px"}} >
-        <Typography variant='h6' textAlign="center" >BOJ</Typography>
+        <Typography variant='h6' textAlign="center" margin="6px" fontWeight="bold" >BOJ</Typography>
         <Box sx={{display: "flex", justifyContent: "center"}}>
             <a 
                 href={`https://www.acmicpc.net/user/${backjoonId}`} 
