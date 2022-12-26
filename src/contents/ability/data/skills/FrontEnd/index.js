@@ -5,14 +5,14 @@ import Redux from './Redux';
 import Next from './Next';
 
 
-function FrontEnd() {
+function FrontEnd({ detail }) {
 
     return <Box sx={{display: "inline-block", width: "245px"}}>
         <Typography variant='h6' textAlign="center">FrontEnd</Typography>
-        <Vue />
-        <React />
-        <Redux />
-        <Next />
+        <Vue detail={detail} />
+        <React detail={detail} />
+        <Redux detail={detail} />
+        <Next detail={detail} />
     </Box>
 }
 

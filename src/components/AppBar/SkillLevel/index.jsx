@@ -10,7 +10,7 @@ function SkillLevel({level}) {
 
     return <Box>
         <Grid container spacing={0} marginRight="2px">
-            {array.map(num => <Grid item color={num<level?"#FFD400":"gray"} height="20px">
+            {array.map(num => <Grid key={num} item color={num<level?"#FFD400":"gray"} height="20px">
                 <SquareRoundedIcon fontSize='small' />
             </Grid>)}
         </Grid>

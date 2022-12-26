@@ -8,16 +8,16 @@ import Javascript from './Javascript';
 
 
 
-function Language() {
+function Language({ detail }) {
 
     return <Box sx={{display: "inline-block", width: "245px"}}>
         <Typography variant='h6' textAlign="center">Language</Typography>
-        <C />
-        <Cpp />
-        <Csharp />
-        <Python />
-        <Java />
-        <Javascript />
+        <C detail={detail} />
+        <Cpp detail={detail} />
+        <Csharp detail={detail} />
+        <Python detail={detail} />
+        <Java detail={detail} />
+        <Javascript detail={detail} />
     </Box>
 }
 

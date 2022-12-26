@@ -9,9 +9,8 @@ function Algorithm() {
     return <Box>
         <h3><PsychologyIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Algorithm</h3>
         <Typography variant='h7' mt={3} >
-            {"알고리즘을 "}
             <Typography variant='h7' fontWeight='bold' color={'#03a9f4'}> 
-                {"깊이 있게 이해"}
+                {"알고리즘을 깊이 있게 이해"}
             </Typography>
             {"하기 위해 "}
             <Typography variant='h7' fontWeight='bold' color={'#03a9f4'}> 
@@ -20,9 +19,9 @@ function Algorithm() {
             {"로 풀고 있습니다."} <br/>
             {"모의 SW 역량 테스트 "}
             <Typography variant='h7' fontWeight='bold' color={'#03a9f4'}> 
-                {"A+"}
+                {"A+등급"}
             </Typography>
-            {"등급을 취득했습니다."}
+            {"을 취득했습니다."}
         </Typography>
         <Container>
             <Grid container>
