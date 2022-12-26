@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { Container, Grid, Box, Typography, Switch, FormControlLabel } from '@mui/material';
 import HandymanIcon from '@mui/icons-material/Handyman';
-import Language from './Language';
-import FrontEnd from './FrontEnd';
-import BackEnd from './BackEnd';
-import Others from './Others';
+import Part from './Part';
+import { parts } from './data';
 
 
 function Skills() {
@@ -29,18 +27,7 @@ function Skills() {
                 <FormControlLabel control={<Switch checked={showDetail} onChange={handleSwitch} />} label="detail" />
             </Box>
             <Grid container spacing={1}>
-                <Grid item>
-                    <Language detail={showDetail} />
-                </Grid>
-                <Grid item>
-                    <FrontEnd detail={showDetail} />
-                </Grid>
-                <Grid item>
-                    <BackEnd detail={showDetail} />
-                </Grid>
-                <Grid item>
-                    <Others detail={showDetail} />
-                </Grid>
+                {parts.map((part, id) => <Part part={part} detail={showDetail} key={id}/>)}
             </Grid>
         </Container>
     </Box>
