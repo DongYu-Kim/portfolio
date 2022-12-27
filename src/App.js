@@ -2,10 +2,10 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider, createTheme, Container, Box, useScrollTrigger, Slide } from "@mui/material";
 import ResponsiveAppBar from './components/AppBar';
-import Introduce from './contents/introduce';
-import Resume from './contents/resume';
-import Ability from './contents/ability';
-import Projects from './contents/projects';
+import Introduce from './contents/Introduce';
+import Resume from './contents/Resume';
+import Ability from './contents/Ability';
+import Projects from './contents/Projects';
 
 let _mode = localStorage.getItem("mode");
 !_mode&& (_mode = "dark");

@@ -1,10 +1,10 @@
-import Career from "./career";
+import Careers from "./Careers";
 import Awards from "./Awards";
 import Certificate from "./Certificate";
 
 
 export {
-    Career,
+    Careers,
     Awards,
     Certificate,
 };

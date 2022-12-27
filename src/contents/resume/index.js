@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Container, Grid, Box, Typography } from '@mui/material';
-import { Career, Awards, Certificate } from './data';
+import { Careers, Awards, Certificate } from './data';
 import { pages } from '../../data';
 
 function Resume() {
@@ -11,7 +11,7 @@ function Resume() {
         </Typography>
         <Container>
             <Box>
-                <Career />
+                <Careers />
             </Box>
             <Box>
                 <Grid container spacing={12}>
