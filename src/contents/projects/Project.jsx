@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container, Grid, Box, Typography, Card, CardMedia, Chip, CardContent } from '@mui/material';
+import { Grid, Box, Typography, Card, CardMedia, Chip, CardContent } from '@mui/material';
 import AppsIcon from '@mui/icons-material/Apps';
 import TaskIcon from '@mui/icons-material/Task';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
@@ -10,11 +10,11 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
         <Typography variant='h5' mt={3} mb={0} fontWeight='bold'> 
             {name}
         </Typography>
-        <p style={{ color: "gray", marginBottom: "0" }}>{period}</p>
-        <Typography variant='h7' mt={3} fontWeight="bold">
-            {description}
-        </Typography>
-        <Container>
+        <Box marginLeft="1rem">
+            <p style={{ color: "gray", marginBottom: "0" }}>{period}</p>
+            <Typography variant='h7' mt={3} fontWeight="bold">
+                {description}
+            </Typography>
             <Grid container spacing={3}>
                 <Grid item>
                     <Card 
@@ -27,7 +27,7 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
                             component="video"
                             width="100%" height="100%"
                             src={videoUrl}
-                            autoPlay muted
+                            autoPlay muted loop
                         />
                     </Card>
                     {skills.map((skill, id) => <Chip key={id}
@@ -36,7 +36,7 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
                     />)}
                 </Grid>
                 <Grid item>
-                    <Card variant="outlined" sx={{maxWidth: "400px", borderRadius: "0.7rem", borderWidth: 0}}>
+                    <Card variant="outlined" sx={{maxWidth: "450px", borderRadius: "0.7rem", borderWidth: 0}}>
                         <CardContent>
                             <Box>
                                 <Typography variant='h6' fontWeight="bold" >
@@ -75,7 +75,7 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
                     </Card>
                 </Grid>
             </Grid>
-        </Container>
+        </Box>
     </Box>
 };
 
