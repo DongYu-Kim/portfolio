@@ -10,7 +10,7 @@ function Careers() {
             <InsightsIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Career 
         </Typography>
         <Grid container spacing={1}>
-            {careers.map((career, id) => <Grid item>
+            {careers.map((career, id) => <Grid item key={id}>
                 <Career 
                     name={career.name}
                     period={career.period}

@@ -53,7 +53,7 @@ const projects = [
             "혼자 면접 연습",
             "일대다 면접 연습",
             "자소서 공유, 피드백 등 스터디원들과 소통",
-            "면접 질문을 카테고리별로 모아보고 추가"
+            "면접 질문 추가 및 카테고리별로 모아보기"
         ],
         roles: [
             "FrontEnd 기술 스택 선행 학습과 선정",
@@ -95,7 +95,7 @@ const projects = [
         name: "MCDJ",
         period: "2021.11.17 ~ 2021.11.26",
         description: "연대기별 영화 추천 서비스",
-        videoUrl: "videos/ssafyrace.mp4",
+        videoUrl: "videos/mcdj.mp4",
         skills: ["Django", "Vue.js"],
         mainFuncs: [
             "연도별로 인기 영화 소개",
