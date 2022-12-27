@@ -3,6 +3,8 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import Backjoon from './backjoon';
 import Swea from './swea';
 import Programmers from './programmers';
+import Pulse from 'react-reveal/Pulse';
+
 
 function Algorithm() {
 
@@ -26,13 +28,19 @@ function Algorithm() {
         <Container>
             <Grid container>
                 <Grid item>
-                    <Backjoon />
+                    <Pulse>
+                        <Backjoon />
+                    </Pulse>
                 </Grid>    
-                <Grid item>    
-                    <Swea />
+                <Grid item>
+                    <Pulse>
+                        <Swea />
+                    </Pulse>
                 </Grid>    
-                <Grid item>  
-                    <Programmers />
+                <Grid item>
+                    <Pulse>
+                        <Programmers />
+                    </Pulse>
                 </Grid>
             </Grid>
         </Container>

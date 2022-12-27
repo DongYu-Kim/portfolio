@@ -7,6 +7,7 @@ import Resume from './contents/Resume';
 import Ability from './contents/Ability';
 import Projects from './contents/Projects';
 
+
 let _mode = localStorage.getItem("mode");
 !_mode&& (_mode = "dark");
 

@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { Box, Card, CardContent, Typography } from '@mui/material';
-import SkillLevel from '../../../../components/AppBar/SkillLevel';
+import SkillLevel from '../../../../components/SkillLevel';
+import Flip from 'react-reveal/Flip';
+
 
 function Skill({ name, imgUrl, contents, level, detail }) {
-    return <Card 
+    return <Flip bottom><Card 
         variant="outlined" 
         style={{marginTop: "5px", borderRadius: "0.7rem", padding: "0.7rem"}}
     >
@@ -27,7 +29,7 @@ function Skill({ name, imgUrl, contents, level, detail }) {
                 {content}
             </Typography>)}
         </CardContent>}
-    </Card>
+    </Card></Flip>
 };
 
 export default React.memo(Skill);
