@@ -5,7 +5,7 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 function Awards() {
 
     return <Box>
-        <h3><EmojiEventsIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Awards</h3>
+        <h3 style={{display: "flex", alignItems: "center"}}><EmojiEventsIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Awards</h3>
         <li style={{fontWeight: "bold"}}>성적우수상 <span style={{color: "gray", fontWeight: "normal"}}>(2021.11.26, 삼성전자주식회사)</span></li>
         <p style={{margin: "0 0 6px 0"}}>삼성 청년 SW 아카데미 1학기 광주2반 종합성적 1등</p>
         <li style={{fontWeight: "bold"}}>우수상 <span style={{color: "gray", fontWeight: "normal"}}>(2022.02.18, 삼성전자주식회사)</span></li>

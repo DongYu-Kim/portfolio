@@ -7,7 +7,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 function Contact() {
     return <Box sx={{ display: "inline-block" }}>
-        <h3><PhoneIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Contact</h3>
+        <h3 style={{display: "flex", alignItems: "center"}}><PhoneIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Contact</h3>
         <a
             href='mailto:ehddb2252@gmail.com' target='_blank' rel='noreferrer'
             style={{marginRight: "1rem", textDecoration: "none", color: "inherit"}}

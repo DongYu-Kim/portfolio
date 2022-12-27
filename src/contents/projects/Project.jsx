@@ -39,7 +39,7 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
                     <Card variant="outlined" sx={{maxWidth: "450px", borderRadius: "0.7rem", borderWidth: 0}}>
                         <CardContent>
                             <Box>
-                                <Typography variant='h6' fontWeight="bold" >
+                                <Typography variant='h6' fontWeight="bold" style={{display: "flex", alignItems: "center"}}>
                                     <AppsIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />
                                     주요 기능
                                 </Typography>
@@ -50,7 +50,7 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
                                 </li>)}
                             </Box>
                             <Box>
-                                <Typography variant='h6' fontWeight="bold" >
+                                <Typography variant='h6' fontWeight="bold" style={{display: "flex", alignItems: "center"}}>
                                     <TaskIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />
                                     담당 역할
                                 </Typography>
@@ -61,7 +61,7 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
                                 </li>)}
                             </Box>
                             <Box>
-                                <Typography variant='h6' fontWeight="bold" >
+                                <Typography variant='h6' fontWeight="bold" style={{display: "flex", alignItems: "center"}}>
                                     <AutoAwesomeIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />
                                     성과 및 배운점
                                 </Typography>

@@ -4,7 +4,7 @@ import FlagIcon from '@mui/icons-material/Flag';
 
 function Dream() {
     return <Box sx={{ display: "inline-block" }}>
-        <Typography variant='h5' mt={3} fontWeight='bold'>
+        <Typography variant='h5' mt={3} fontWeight='bold' style={{display: "flex", alignItems: "center"}}>
             <FlagIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Dream
         </Typography>
         <Typography variant='h7' mt={3} >

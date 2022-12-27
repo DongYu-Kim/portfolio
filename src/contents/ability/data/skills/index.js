@@ -13,7 +13,7 @@ function Skills() {
     }
 
     return <Box>
-        <Typography variant='h5' mt={3} fontWeight='bold'> 
+        <Typography variant='h5' mt={3} fontWeight='bold' style={{display: "flex", alignItems: "center"}}> 
             <HandymanIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Skills 
         </Typography>
         <Typography variant='h7' mt={3} > 

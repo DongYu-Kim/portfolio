@@ -7,7 +7,7 @@ import Programmers from './programmers';
 function Algorithm() {
 
     return <Box>
-        <h3><PsychologyIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Algorithm</h3>
+        <h3 style={{display: "flex", alignItems: "center"}}><PsychologyIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Algorithm</h3>
         <Typography variant='h7' mt={3} >
             <Typography variant='h7' fontWeight='bold' color={'#03a9f4'}> 
                 {"알고리즘을 깊이 있게 이해"}
