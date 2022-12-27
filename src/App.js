@@ -5,7 +5,7 @@ import ResponsiveAppBar from './components/AppBar';
 import Introduce from './contents/introduce';
 import Resume from './contents/resume';
 import Ability from './contents/ability';
-import Project from './contents/project';
+import Projects from './contents/projects';
 
 let _mode = localStorage.getItem("mode");
 !_mode&& (_mode = "dark");
@@ -70,7 +70,7 @@ function App() {
                     <Introduce />
                     <Resume />
                     <Ability />
-                    <Project />
+                    <Projects />
                 </Container>
                 <Box height="200px" />
             </Box>
