@@ -3,7 +3,7 @@ const projects = [
         name: "SSAFY SCHOOL",
         period: "2022.04.11 ~ 2022.05.20",
         description: "삼성청년SW아카데미(SSAFY) 광주 캠퍼스를 만나볼 수 있는 메타버스 플랫폼",
-        videoUrl: "videos/test.mp4",
+        videoUrl: "videos/ssafyschool.mp4",
         skills: ["Unity", "Photon", "Node.js", "Django", "React", "Spring", "MySQL"],
         mainFuncs: [
             "강의와 프로젝트 수행을 위한 화면공유, 화상채팅",
@@ -25,7 +25,7 @@ const projects = [
         name: "Notis",
         period: "2022.02.21 ~ 2022.04.08",
         description: "머신러닝을 활용한 Notification 통합 관리 시스템",
-        videoUrl: "videos/test.mp4",
+        videoUrl: "videos/notis.mp4",
         skills: ["Kotlin", "Python", "KoELECTRA-small"],
         mainFuncs: [
             "모바일 기기의 알림 저장, 모아보기",
@@ -47,7 +47,7 @@ const projects = [
         name: "당당!하게 면접보자",
         period: "2022.01.04 ~ 2022.02.18",
         description: "면접 연습을 도와주는 면접 스터디 플랫폼",
-        videoUrl: "videos/test.mp4",
+        videoUrl: "videos/dangdang.mp4",
         skills: ["Next.js", "Redux", "Kurento", "Spring", "MySQL", "MongoDB", "Redis"],
         mainFuncs: [
             "혼자 면접 연습",
@@ -71,7 +71,7 @@ const projects = [
         name: "싸피레이스",
         period: "2021.12.01 ~ 2022.01.07",
         description: "gamification이 적용된 레이싱 알고리즘 대회",
-        videoUrl: "videos/test.mp4",
+        videoUrl: "videos/ssafyrace.mp4",
         skills: [
             "Python", "stanley method"
         ],
@@ -95,7 +95,7 @@ const projects = [
         name: "MCDJ",
         period: "2021.11.17 ~ 2021.11.26",
         description: "연대기별 영화 추천 서비스",
-        videoUrl: "videos/test.mp4",
+        videoUrl: "videos/ssafyrace.mp4",
         skills: ["Django", "Vue.js"],
         mainFuncs: [
             "연도별로 인기 영화 소개",
