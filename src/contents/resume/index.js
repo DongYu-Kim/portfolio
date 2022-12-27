@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Container, Grid, Box, Typography } from '@mui/material';
 import { Careers, Awards, Certificate } from './data';
 import { pages } from '../../data';
-import Fade from 'react-reveal/Fade';
 
 
 function Resume() {
@@ -18,14 +17,10 @@ function Resume() {
             <Box>
                 <Grid container spacing={12}>
                     <Grid item>
-                        <Fade right>
-                            <Awards />
-                        </Fade>
+                        <Awards />
                     </Grid>
                     <Grid item>
-                        <Fade right>
-                            <Certificate />
-                        </Fade>
+                        <Certificate />
                     </Grid>
                 </Grid>
             </Box>
