@@ -89,8 +89,8 @@ function App() {
                 <Box height="70px" />
                 <Container>
                     <Introduce />
-                    <Resume />
                     <Ability />
+                    <Resume />
                     <Projects />
                 </Container>
                 <Box height="200px" />

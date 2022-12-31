@@ -6,9 +6,9 @@ import { pages } from '../../data';
 
 function Resume() {
 
-    return <Container id={pages[0]} style={{scrollMarginTop: "100px"}}>
+    return <Container id={pages[1]} style={{scrollMarginTop: "100px"}}>
         <Typography variant='h4' mt={5} mb={3} fontWeight='bold'>
-            {pages[0]}
+            {pages[1]}
         </Typography>
         <Container>
             <Box>
