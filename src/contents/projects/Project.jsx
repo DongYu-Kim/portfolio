@@ -73,12 +73,12 @@ function Project({ name, period, description, videoUrl, skills, mainFuncs, roles
                                     </li>)}
                                 </Box>
                                 <Box>
-                                    <Typography variant='h6' fontWeight="bold" style={{display: "flex", alignItems: "center"}}>
+                                    <Typography variant='h6' fontSize="1.4rem" fontWeight="bold" mt={2} style={{display: "flex", alignItems: "center"}}>
                                         <AutoAwesomeIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />
                                         성과 및 배운점
                                     </Typography>
                                     {results.map((result, id) => <li key={id} 
-                                        style={{marginLeft: "2rem", fontSize: "14px"}}
+                                        style={{marginLeft: "2rem", fontSize: "16px"}}
                                     >
                                         {result}
                                     </li>)}

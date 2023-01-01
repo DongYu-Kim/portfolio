@@ -19,6 +19,8 @@ const projects = [
             "삼성 청년 SW 아카데미 자율 프로젝트 우수상(1등) & 결선발표회 입상",
             "멀티플레이어 게임 프로그래밍의 이해",
             "Unity와 Photon, 소켓 통신의 학습과 적용",
+            "클라이언트 최적화의 필요성",
+            "같이 문제를 해결하고 성장하는 즐거움"
         ],
     },
     {
@@ -40,7 +42,8 @@ const projects = [
         results: [
             "삼성 청년 SW 아카데미 전자연계 프로젝트 우수상(1등)",
             "Tensorflow와 Jupyter Notebook 사용법",
-            "자연어 처리의 이해와 KoBERT 모델 학습"
+            "자연어 처리의 이해와 KoBERT 모델 학습",
+            "직관적이고 편한 UI/UX의 중요성"
         ],
     },
     {
@@ -64,7 +67,8 @@ const projects = [
             "삼성 청년 SW 아카데미 공통 프로젝트 우수상(1등)",
             "SPA, CSR, SSR의 이해",
             "Redux state, dispatch, subscribe의 이해와 적용",
-            "WebRTC 기술의 이해와 적용"
+            "WebRTC 기술의 이해와 적용",
+            "새로운 기술 적용 과정과 개발 자신감"
         ],
     },
     {
@@ -88,7 +92,8 @@ const projects = [
         results: [
             "삼성 청년 SW 아카데미 263개 팀 중 1등",
             "자율 주행의 이해와 적용",
-            "pure pursuit, stanley method의 이해와 적용"
+            "pure pursuit, stanley method의 이해와 적용",
+            "알고리즘의 적용과 학습 중요성"
         ],
     },
     {
@@ -110,7 +115,8 @@ const projects = [
             "server-client 모델의 이해",
             "Django ORM의 이해와 적용",
             "http status의 이해",
-            "Vuex getters와 mutations의 이해와 적용"
+            "Vuex getters와 mutations의 이해와 적용",
+            "창의적이고 독창적인 기술의 중요성"
         ],
     }
 ];
