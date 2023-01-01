@@ -18,9 +18,9 @@ function Skills() {
         </Typography>
         <Typography variant='h7' mt={3} > 
             <Typography variant='h7' fontWeight='bold' color={'#03a9f4'}> 
-                새로운 기술에 도전
+                새로운 기술 학습
             </Typography>
-            하는 것을 좋아합니다.
+            을 좋아합니다.
         </Typography>
         <Container>
             <Box sx={{display: "flex", justifyContent: "end", alignItems: "center"}}>

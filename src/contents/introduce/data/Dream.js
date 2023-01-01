@@ -4,16 +4,24 @@ import FlagIcon from '@mui/icons-material/Flag';
 
 function Dream() {
     return <Box sx={{ display: "inline-block" }}>
-        <Typography variant='h5' mt={3} fontWeight='bold' style={{display: "flex", alignItems: "center"}}>
+        <Typography variant='h5' mt={0} mb={2} fontWeight='bold' style={{display: "flex", alignItems: "center"}}>
             <FlagIcon color='info' style={{verticalAlign: "middle", marginRight: "0.5rem"}} />Dream
         </Typography>
         <Typography variant='h7' mt={3} >
-            제가 가진 능력을 베푸는 것을 좋아합니다.<br />
-            저의 열정이 사람들에게 동기부여가 되고 착한 영향을 미칠 수 있는<br />
+            <p>
+            상상을 실현할 수 있는 SW 분야에 매력을 느꼈습니다.
+            </p>
+            <p>
+            새로운 것을 배우고 적용하는 것이 재미있고, <br /> 
+            지식을 공유하고 생각을 주고받는 것이 즐겁습니다.
+            </p>
+            <p>
+            저의 개발이 사람들의{'\u00a0'}
             <Typography variant='h7' fontWeight='bold' color={'#03a9f4'}> 
-            순수한 개발자
+            동기부여
             </Typography>
             가 되고 싶습니다.
+            </p>
         </Typography>
     </Box>
 };

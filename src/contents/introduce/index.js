@@ -11,7 +11,7 @@ function Introduce() {
         </Typography>
         <Container>
             <Grid container spacing={4}>
-                <Grid item>
+                <Grid item display="flex" justifyContent="center" alignItems="center">
                     <Image />
                 </Grid>
                 <Grid item>

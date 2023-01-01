@@ -9,6 +9,7 @@ function Image() {
             src='images/introduceimage.jpg' alt='Introduce'
             height='100%'
             width='300px'
+            style={{borderRadius: "0.7rem"}}
         />
         </Fade>
     </Box>
