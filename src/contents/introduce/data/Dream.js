@@ -16,11 +16,11 @@ function Dream() {
             지식을 공유하고 생각을 주고받는 것이 즐겁습니다.
             </p>
             <p>
-            저의 개발이 사람들의{'\u00a0'}
+            SW 개발로{'\u00a0'}
             <Typography variant='h7' fontWeight='bold' color={'#03a9f4'}> 
-            동기부여
+            더 멋진 세상
             </Typography>
-            가 되고 싶습니다.
+            을 만들어 가고 싶습니다.
             </p>
         </Typography>
     </Box>
