@@ -11,8 +11,8 @@ const skills = {
         {
             name: "C++",
             imgUrl: 'images/icons/cpp.png',
-            contents: ["코드 이해 및 간단한 코드 작성"],
-            level: 2
+            contents: ["클래스, 템플릿, STL를 사용해 자유롭게 코드 구현"],
+            level: 3
         },
         {
             name: "C#",
